@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Form Biodata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Form Biodata</h2>
+        <form action="#" method="post">
+            <table width="75%" align="center">
+                <tr>
+                    <td width="120">NIM</td>
+                    <td width="40">:</td>
+                    <td>
+                        <input type="text" placeholder="Masukkan NIM Anda">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td>
+                        <input type="text" name="txtnama" placeholder="Masukkan Nama Anda">
+                    </td>
+                </tr>
+                <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="1" value="L"> Laki Laki
+                    <input type="radio" name="2" value="P"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Jurusan</td>
+                <td>:</td>
+                <td>
+                   <select name="optJurusan">
+                        <option value=""> Pilih Jurusan </option>
+                        <option value="S1 ILKOM"> S1 ILKOM </option>
+                        <option value="S1 RPL"> S1 RPL </option>
+                        <option value="S1 DKV"> S1 DKV </option>
+                   </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hoby</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="1" value="K"> Komputer
+                    <input type="checkbox" name="2" value="M"> Musik
+                    <input type="checkbox" name="3" value="O"> Olahraga
+                    <input type="checkbox" name="1" value="T"> Travelling
+                </td>
+            </tr>
+            <tr>
+                <td>Catatan</td>
+                <td>:</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td>Foto</td>
+                <td>:</td>
+                <td>
+                    <input type="file" name="no file chosen">
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="txtemail" placeholder="Masukkan Email Anda">
+                </td>
+            </tr>
+            <tr>
+                <td>Sandi Login</td>
+                <td>:</td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>Ulangi Sandi Login</td>
+                <td>:</td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="submit" value="Simpan">
+                    <input type="reset" value="Batal">
+                    <input type="button" value="Peringatan">
+                </td>
+                
+            </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
